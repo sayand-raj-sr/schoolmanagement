@@ -1,4 +1,3 @@
-// app/api/dashboard/route.js
 import { connectDB } from "@/lib/db";
 import Student from "../../models/Student";
 import Teacher from "../../models/Teacher";
