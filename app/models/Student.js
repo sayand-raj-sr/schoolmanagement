@@ -2,12 +2,12 @@ import mongoose from "mongoose";
 
 const StudentSchema = new mongoose.Schema({
   name: { type: String, required: true },
-  class: { type: String, required: true }, // keep as 'class' if frontend sends 'class'
+  class: { type: String, required: true }, // <- changed from classId to class
   rollNumber: { type: String, required: true },
   age: { type: Number, required: true },
   contactInfo: {
-    phone: { type: String, default: "" },
-    email: { type: String, default: "" } // added email
+    phone: { type: String },
+    email: { type: String }
   }
 });
 
