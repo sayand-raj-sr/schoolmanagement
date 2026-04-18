@@ -78,7 +78,6 @@ export default function DashboardLayout() {
           ))}
         </div>
 
-        {/* Chart Area */}
         <div className="bg-white p-6 rounded-3xl shadow-lg border border-slate-200">
           <Bar data={chartData} options={chartOptions} className="h-80" />
         </div>

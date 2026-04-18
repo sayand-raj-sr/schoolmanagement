@@ -37,7 +37,6 @@ export async function POST(req) {
   }
 }
 
-// PATCH update class (assign teacher/students)
 export async function PATCH(req) {
   try {
     await connectDB();

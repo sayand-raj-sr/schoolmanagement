@@ -74,7 +74,7 @@ export default function AuthPage() {
               <div className="bg-white/20 p-2 rounded-lg backdrop-blur-md">
                 <ShieldCheck className="w-8 h-8 text-white" />
               </div>
-              <span className="text-2xl font-bold tracking-tight">Academia.</span>
+              <span className="text-2xl font-bold tracking-tight">Eduflow.</span>
             </div>
             
             <h2 className="text-4xl font-extrabold leading-tight mb-4">

@@ -42,7 +42,7 @@ export async function POST(req) {
     console.log("Student saved:", savedStudent);
     return NextResponse.json(savedStudent, { status: 201 });
   } catch (error) {
-    console.error("POST /api/students error:", error); // <-- full error log
+    console.error("POST /api/students error:", error); 
     return NextResponse.json({ error: error.message || "Failed to add student" }, { status: 500 });
   }
 }
